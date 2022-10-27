@@ -25,6 +25,10 @@ Installation
 To install, simply do::
 
     pip install psrecord
+    
+If you would like to make plots of resource usage, install as below, so that matplotlib is registered as a dependency of psrecord::
+
+    pip install psrecord[plot]
 
 Usage
 =====
